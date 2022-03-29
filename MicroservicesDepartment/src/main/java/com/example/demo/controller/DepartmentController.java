@@ -33,7 +33,9 @@ public class DepartmentController {
 	@PostMapping("/save")
 	public void save(@RequestBody Department d) {
 		 deptservice.save(d);
-		
+		 System.out.println("Updating in the Code");
 	}
+	
+	
 	
 }
